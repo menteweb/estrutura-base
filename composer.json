@@ -1,0 +1,22 @@
+{
+    "name": "menteweb/integracao-com-pagseguro-checkout-transparente",
+    "description": "Integra\u0000\u0000o com o pagseguro checkout transparente",
+    "authors": [
+        {
+            "name": "Philipinho",
+            "email": "philipinho93@gmail.com"
+        }
+    ],
+    "scripts": {
+        "start": "php -S localhost:8000 -t www"
+    },
+    "config": {
+        "process-timeout": 0
+    },
+    "autoload": {
+        "psr-4": {
+            "System\\": "./system",
+            "App\\": "./app"
+        }
+    }
+}

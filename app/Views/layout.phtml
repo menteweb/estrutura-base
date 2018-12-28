@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Framework - MenteWeb</title>
+</head>
+<body>
+    <h1>Layout Base</h1>
+
+    <?php
+        if(file_exists($this->system->file)){
+            require_once($this->system->file);
+        }
+    ?>
+
+</body>
+</html>
