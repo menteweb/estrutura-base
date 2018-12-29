@@ -49,8 +49,9 @@ class System{
                 return call_user_func_array([$app, $method], isset($params) ? $params : []);
             }
 
-            trigger_error('A URL: ' . implode('/', $this->url) . ' Não foi encontrada nas configurações de rota');
         }
+        
+        trigger_error('A URL: ' . implode('/', $this->url) . ' Não foi encontrada nas configurações de rota');
     }
 
     private function _get_url(){
